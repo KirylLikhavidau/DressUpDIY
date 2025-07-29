@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|c:\\users\\arsen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\dressupdiy\\assets\\scripts\\animatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|c:\\users\\arsen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\dressupdiy\\assets\\scripts\\handanimatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handanimatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -96,12 +96,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AnimatorClips.cs",
-              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\AnimatorClips.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorClips.cs",
-              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\AnimatorClips.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimatorClips.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAkAAAAFAAAAAAAAAA==",
+              "Title": "HandAnimatorClips.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandAnimatorClips.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandAnimatorClips.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandAnimatorClips.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandAnimatorClips.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T10:36:16.498Z",
               "EditorCaption": ""
@@ -188,8 +188,7 @@
               "RelativeToolTip": "Assets\\Scripts\\HandState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:10:24.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T08:10:24.876Z"
             },
             {
               "$type": "Document",
@@ -201,8 +200,7 @@
               "RelativeToolTip": "Assets\\Scripts\\IdleState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:15:40.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T08:15:40.405Z"
             },
             {
               "$type": "Document",

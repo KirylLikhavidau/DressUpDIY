@@ -2,11 +2,13 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class BlushBrush : InteractableObject
+public class Brush : InteractableObject
 {
-    [SerializeField] private List<BlushSection> _blushSections;
+    [SerializeField] private List<ColorSection> _colorSections;
+    [SerializeField] private bool _isForShadows = false;
 
     public Sprite CurrentSprite => _currentSprite;
+    public bool IsForShadows => _isForShadows;
 
     private Sprite _currentSprite;
 
@@ -14,7 +16,7 @@ public class BlushBrush : InteractableObject
     {
         base.OnEnable();
 
-        foreach (var section in _blushSections)
+        foreach (var section in _colorSections)
         {
             section.Clicked += (sprite, index) => 
             {
@@ -30,7 +32,7 @@ public class BlushBrush : InteractableObject
     {
         base.OnDisable();
 
-        foreach (var section in _blushSections)
+        foreach (var section in _colorSections)
         {
             section.Clicked -= (sprite, index) =>
             {
@@ -44,7 +46,7 @@ public class BlushBrush : InteractableObject
 
     private void DisableAllSections()
     {
-        foreach (var section in _blushSections)
+        foreach (var section in _colorSections)
         {
             section.gameObject.GetComponent<Button>().interactable = false;
         }
@@ -52,7 +54,7 @@ public class BlushBrush : InteractableObject
 
     private void EnableAllSections()
     {
-        foreach (var section in _blushSections)
+        foreach (var section in _colorSections)
         {
             section.gameObject.GetComponent<Button>().interactable = true;
         }

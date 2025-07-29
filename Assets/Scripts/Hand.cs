@@ -9,8 +9,10 @@ public class Hand : MonoBehaviour
     [SerializeField] private InputSource _inputSource;
     [SerializeField] private Animator _handAnimator;
     [SerializeField] private HandAnimatorClips _clips;
-    [SerializeField] private List<BlushSection> _blushSections;
-    [SerializeField] private BlushBrush _blushBrush;
+    [SerializeField] private List<ColorSection> _blushSections;
+    [SerializeField] private List<ColorSection> _shadowSections;
+    [SerializeField] private Brush _blushBrush;
+    [SerializeField] private Brush _eyeBrush;
 
     public event Action PickedUpObject;
     public event Action ApplyingObject;
@@ -41,6 +43,15 @@ public class Hand : MonoBehaviour
                 PickUpObject(_blushBrush);
             };
         }
+
+        foreach (var section in _shadowSections)
+        {
+            section.Clicked += (sprite, index) =>
+            {
+                _brushColorIndex = index;
+                PickUpObject(_eyeBrush);
+            };
+        }
     }
 
     private void OnDisable()
@@ -52,8 +63,17 @@ public class Hand : MonoBehaviour
         {
             section.Clicked -= (sprite, index) =>
             {
-                _brushColorIndex = index;   
+                _brushColorIndex = index;
                 PickUpObject(_blushBrush);
+            };
+        }
+
+        foreach (var section in _shadowSections)
+        {
+            section.Clicked -= (sprite, index) =>
+            {
+                _brushColorIndex = index;
+                PickUpObject(_eyeBrush);
             };
         }
     }
@@ -80,8 +100,9 @@ public class Hand : MonoBehaviour
         {
             PlayAnimation(_clips.PickUpCreamClip);
         }
-        else if (obj is BlushBrush)
+        else if (obj is Brush)
         {
+            Debug.Log(_brushColorIndex);
             PlayAnimation(_clips.PickUpBrushClips[_brushColorIndex]);
         }
 
@@ -114,7 +135,7 @@ public class Hand : MonoBehaviour
 
         if (_pickedObject is Cream)
             PlayAnimation(_clips.ReturnCreamClip);
-        else if (_pickedObject is BlushBrush)
+        else if (_pickedObject is Brush)
             PlayAnimation(_clips.ReturnBrushClip);
 
         await Task.Delay(_animationTime);
@@ -123,7 +144,7 @@ public class Hand : MonoBehaviour
 
         if (_pickedObject is Cream)
             PlayAnimation(_clips.ReturnCreamHandClip);
-        else if (_pickedObject is BlushBrush)
+        else if (_pickedObject is Brush)
             PlayAnimation(_clips.ReturnBrushHandClip);
 
         await Task.Delay(_animationTime);

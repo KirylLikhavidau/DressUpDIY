@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BlushSection : MonoBehaviour
+public class ColorSection : MonoBehaviour
 {
     [SerializeField] private Sprite _sprite;
     [SerializeField] private Button _sectionButton;
