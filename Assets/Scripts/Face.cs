@@ -18,5 +18,10 @@ public class Face : MonoBehaviour
     {
         if (obj is Cream)
             _acne.enabled = false;
+        if (obj is BlushBrush)
+        {
+            _blush.enabled = true;
+            _blush.sprite = (obj as BlushBrush).CurrentSprite;
+        }
     }
 }

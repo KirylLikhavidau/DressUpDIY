@@ -1,20 +1,25 @@
 using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 public class Hand : MonoBehaviour
 {
-    [SerializeField] private InputSource _dragSource;
+    [SerializeField] private InputSource _inputSource;
     [SerializeField] private Animator _handAnimator;
+    [SerializeField] private HandAnimatorClips _clips;
+    [SerializeField] private List<BlushSection> _blushSections;
+    [SerializeField] private BlushBrush _blushBrush;
 
     public event Action PickedUpObject;
     public event Action ApplyingObject;
     public event Action<InteractableObject> ObjectApplied;
     public event Action ResetObjectPosition;
 
+    private int _brushColorIndex;
     private InteractableObject _pickedObject;
+    private int _animationTime;
     private bool _isReturningObject;
     private Vector3 _defaultPosition;
 
@@ -25,23 +30,45 @@ public class Hand : MonoBehaviour
 
     private void OnEnable()
     {
-        _dragSource.ObjectPressed += (obj) => PickUpObject(obj);
-        _dragSource.ObjectDraggedOnFace += ApplyObjectToFace;
+        _inputSource.ObjectPressed += (obj) => PickUpObject(obj);
+        _inputSource.ObjectDraggedOnFace += ApplyObjectToFace;
+
+        foreach (var section in _blushSections)
+        {
+            section.Clicked += (sprite, index) => 
+            {
+                _brushColorIndex = index;
+                PickUpObject(_blushBrush);
+            };
+        }
     }
 
     private void OnDisable()
     {
-        _dragSource.ObjectPressed -= (obj) => PickUpObject(obj);
-        _dragSource.ObjectDraggedOnFace -= ApplyObjectToFace;
+        _inputSource.ObjectPressed -= (obj) => PickUpObject(obj);
+        _inputSource.ObjectDraggedOnFace -= ApplyObjectToFace;
+
+        foreach (var section in _blushSections)
+        {
+            section.Clicked -= (sprite, index) =>
+            {
+                _brushColorIndex = index;   
+                PickUpObject(_blushBrush);
+            };
+        }
     }
 
     private async void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!_isReturningObject)
+        if (!_isReturningObject && !_inputSource.IsHoldingObject)
         {
             if (collision.TryGetComponent(out InteractableObject obj))
             {
-                await Task.Delay(200);
+                if(obj is Cream)
+                    await Task.Delay(200);
+                else
+                    await Task.Delay(400);
+
                 obj.transform.SetParent(transform);
             }
         }
@@ -49,9 +76,16 @@ public class Hand : MonoBehaviour
 
     private async void PickUpObject(InteractableObject obj)
     {
-        _handAnimator.Play("PickUpCream");
+        if (obj is Cream)
+        {
+            PlayAnimation(_clips.PickUpCreamClip);
+        }
+        else if (obj is BlushBrush)
+        {
+            PlayAnimation(_clips.PickUpBrushClips[_brushColorIndex]);
+        }
 
-        await Task.Delay(1600);//Поменять
+        await Task.Delay(_animationTime);
 
         _pickedObject = obj;
 
@@ -65,10 +99,9 @@ public class Hand : MonoBehaviour
 
         ApplyingObject.Invoke();
 
-        if (_pickedObject is Cream)
-            _handAnimator.Play("ApplyCreamToFace");
+        PlayAnimation(_clips.ApplyObjectClip);
 
-        await Task.Delay(1600);//поменять
+        await Task.Delay(_animationTime);
 
         ObjectApplied.Invoke(_pickedObject);
 
@@ -80,17 +113,27 @@ public class Hand : MonoBehaviour
         _isReturningObject = true;
 
         if (_pickedObject is Cream)
-            _handAnimator.Play("ReturnCream");
+            PlayAnimation(_clips.ReturnCreamClip);
+        else if (_pickedObject is BlushBrush)
+            PlayAnimation(_clips.ReturnBrushClip);
 
-        await Task.Delay(1600);
+        await Task.Delay(_animationTime);
 
         ResetObjectPosition.Invoke();
 
         if (_pickedObject is Cream)
-            _handAnimator.Play("ReturnCreamHandToDefault");
+            PlayAnimation(_clips.ReturnCreamHandClip);
+        else if (_pickedObject is BlushBrush)
+            PlayAnimation(_clips.ReturnBrushHandClip);
 
-        await Task.Delay(1600);
+        await Task.Delay(_animationTime);
 
         _isReturningObject = false;
+    }
+
+    private void PlayAnimation(AnimationClip clip)
+    {
+        _handAnimator.Play(clip.name);
+        _animationTime = Convert.ToInt32(clip.length * 1000);
     }
 }

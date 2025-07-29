@@ -8,6 +8,8 @@ public class InputSource : MonoBehaviour, IDragHandler, IEndDragHandler
     [SerializeField] private Hand _hand;
     [SerializeField] private float _dampingSpeed = 0.05f;
 
+    public bool IsHoldingObject => _isHoldingObject;
+
     public event Action<InteractableObject> ObjectPressed;
     public event Action ObjectDraggedOnFace;
 

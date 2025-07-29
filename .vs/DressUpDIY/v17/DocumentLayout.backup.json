@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|c:\\users\\arsen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\dressupdiy\\assets\\scripts\\dragsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dragsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|c:\\users\\arsen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\dressupdiy\\assets\\scripts\\animatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\blushbrush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blushbrush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\blushsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blushsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\inputsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\face.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\face.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\handstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HandState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\IdleState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\IdleState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\assets\\scripts\\movementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\MovementState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MovementState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -52,11 +64,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Hand.cs",
               "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\Hand.cs",
               "RelativeToolTip": "Assets\\Scripts\\Hand.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T15:31:40.424Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -84,7 +95,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimatorClips.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\AnimatorClips.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorClips.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\AnimatorClips.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimatorClips.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:36:16.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlushBrush.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\BlushBrush.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BlushBrush.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\BlushBrush.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BlushBrush.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T18:34:36.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InteractableObject.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\InteractableObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\InteractableObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractableObject.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T15:36:15.859Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BlushSection.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\BlushSection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BlushSection.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\BlushSection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BlushSection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T19:11:31.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cream.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\Cream.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cream.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\Cream.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cream.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T15:49:07.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputSource.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\InputSource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputSource.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\InputSource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputSource.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:06:09.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Face.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\Face.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Face.cs",
@@ -96,33 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DragSource.cs",
-              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\DragSource.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DragSource.cs",
-              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\DragSource.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DragSource.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAEsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T10:06:09.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cream.cs",
-              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\Cream.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Cream.cs",
-              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\Cream.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Cream.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T15:49:07.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "HandState.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandState.cs",
@@ -130,11 +188,12 @@
               "RelativeToolTip": "Assets\\Scripts\\HandState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:10:24.876Z"
+              "WhenOpened": "2025-07-27T08:10:24.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IdleState.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IdleState.cs",
@@ -142,23 +201,12 @@
               "RelativeToolTip": "Assets\\Scripts\\IdleState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:15:40.405Z"
+              "WhenOpened": "2025-07-27T08:15:40.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InteractableObject.cs",
-              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\InteractableObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
-              "ToolTip": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\InteractableObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T15:36:15.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MovementState.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\MovementState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementState.cs",
