@@ -18,7 +18,7 @@ public class Face : MonoBehaviour
     {
         if (obj is Cream)
             _acne.enabled = false;
-        if (obj is Brush)
+        else if (obj is Brush)
         {
             if (!(obj as Brush).IsForShadows)
             {
@@ -30,6 +30,11 @@ public class Face : MonoBehaviour
                 _shadow.enabled = true;
                 _shadow.sprite = (obj as Brush).CurrentSprite;
             }
+        }
+        else if (obj is Pomade)
+        {
+            _mouth.enabled = true;
+            _mouth.sprite = (obj as Pomade).PomadeColor;
         }
     }
 }

@@ -10,6 +10,10 @@ public class HandAnimatorClips : MonoBehaviour
     [SerializeField] private AnimationClip[] _pickUpBrushClips;
     [SerializeField] private AnimationClip _returnBrushClip;
     [SerializeField] private AnimationClip _returnBrushHandClip;
+    [Header("Pomade Clips")]
+    [SerializeField] private AnimationClip[] _pickUpPomadeClips;
+    [SerializeField] private AnimationClip[] _returnPomadeClips;
+    [SerializeField] private AnimationClip[] _returnPomadeHandClips;
     [Header("Common Clips")]
     [SerializeField] private AnimationClip _applyObjectClip;
 
@@ -19,5 +23,9 @@ public class HandAnimatorClips : MonoBehaviour
     public AnimationClip[] PickUpBrushClips => _pickUpBrushClips;
     public AnimationClip ReturnBrushClip => _returnBrushClip;
     public AnimationClip ReturnBrushHandClip => _returnBrushHandClip;
+    public AnimationClip[] PickUpPomadeClips => _pickUpPomadeClips;
+    public AnimationClip[] ReturnPomadeClips => _returnPomadeClips;
+    public AnimationClip[] ReturnPomadeHandClips => _returnPomadeHandClips;
+
     public AnimationClip ApplyObjectClip => _applyObjectClip;
 }

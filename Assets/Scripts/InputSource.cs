@@ -60,7 +60,8 @@ public class InputSource : MonoBehaviour, IDragHandler, IEndDragHandler
                 {
                     if (hit.collider.gameObject.TryGetComponent(out InteractableObject obj))
                     {
-                        ObjectPressed?.Invoke(obj);
+                        if(!(obj is Brush))
+                            ObjectPressed?.Invoke(obj);
                     }
                 }
             }

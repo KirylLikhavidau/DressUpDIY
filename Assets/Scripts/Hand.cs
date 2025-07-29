@@ -14,12 +14,13 @@ public class Hand : MonoBehaviour
     [SerializeField] private Brush _blushBrush;
     [SerializeField] private Brush _eyeBrush;
 
+    public event Action ObjectReturned;
     public event Action PickedUpObject;
     public event Action ApplyingObject;
     public event Action<InteractableObject> ObjectApplied;
     public event Action ResetObjectPosition;
 
-    private int _brushColorIndex;
+    private int _colorIndex;
     private InteractableObject _pickedObject;
     private int _animationTime;
     private bool _isReturningObject;
@@ -39,7 +40,7 @@ public class Hand : MonoBehaviour
         {
             section.Clicked += (sprite, index) => 
             {
-                _brushColorIndex = index;
+                _colorIndex = index;
                 PickUpObject(_blushBrush);
             };
         }
@@ -48,7 +49,7 @@ public class Hand : MonoBehaviour
         {
             section.Clicked += (sprite, index) =>
             {
-                _brushColorIndex = index;
+                _colorIndex = index;
                 PickUpObject(_eyeBrush);
             };
         }
@@ -63,7 +64,7 @@ public class Hand : MonoBehaviour
         {
             section.Clicked -= (sprite, index) =>
             {
-                _brushColorIndex = index;
+                _colorIndex = index;
                 PickUpObject(_blushBrush);
             };
         }
@@ -72,7 +73,7 @@ public class Hand : MonoBehaviour
         {
             section.Clicked -= (sprite, index) =>
             {
-                _brushColorIndex = index;
+                _colorIndex = index;
                 PickUpObject(_eyeBrush);
             };
         }
@@ -86,7 +87,7 @@ public class Hand : MonoBehaviour
             {
                 if(obj is Cream)
                     await Task.Delay(200);
-                else
+                else if (obj is Brush)
                     await Task.Delay(400);
 
                 obj.transform.SetParent(transform);
@@ -102,8 +103,12 @@ public class Hand : MonoBehaviour
         }
         else if (obj is Brush)
         {
-            Debug.Log(_brushColorIndex);
-            PlayAnimation(_clips.PickUpBrushClips[_brushColorIndex]);
+            PlayAnimation(_clips.PickUpBrushClips[_colorIndex]);
+        }
+        else if (obj is Pomade)
+        {
+            _colorIndex = (obj as Pomade).PomadeColorIndex;
+            PlayAnimation(_clips.PickUpPomadeClips[_colorIndex]);
         }
 
         await Task.Delay(_animationTime);
@@ -137,6 +142,8 @@ public class Hand : MonoBehaviour
             PlayAnimation(_clips.ReturnCreamClip);
         else if (_pickedObject is Brush)
             PlayAnimation(_clips.ReturnBrushClip);
+        else if (_pickedObject is Pomade)
+            PlayAnimation(_clips.ReturnPomadeClips[_colorIndex]);
 
         await Task.Delay(_animationTime);
 
@@ -146,10 +153,13 @@ public class Hand : MonoBehaviour
             PlayAnimation(_clips.ReturnCreamHandClip);
         else if (_pickedObject is Brush)
             PlayAnimation(_clips.ReturnBrushHandClip);
+        else if (_pickedObject is Pomade)
+            PlayAnimation(_clips.ReturnPomadeHandClips[_colorIndex]);
 
         await Task.Delay(_animationTime);
 
         _isReturningObject = false;
+        ObjectReturned?.Invoke();
     }
 
     private void PlayAnimation(AnimationClip clip)

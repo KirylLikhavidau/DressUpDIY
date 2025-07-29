@@ -21,11 +21,8 @@ public class Brush : InteractableObject
             section.Clicked += (sprite, index) => 
             {
                 _currentSprite = sprite;
-                DisableAllSections();
             };
         }
-
-        Hand.ResetObjectPosition += EnableAllSections;
     }
 
     protected override void OnDisable()
@@ -37,26 +34,7 @@ public class Brush : InteractableObject
             section.Clicked -= (sprite, index) =>
             {
                 _currentSprite = sprite;
-                DisableAllSections();
             };
-        }
-
-        Hand.ResetObjectPosition -= EnableAllSections;
-    }
-
-    private void DisableAllSections()
-    {
-        foreach (var section in _colorSections)
-        {
-            section.gameObject.GetComponent<Button>().interactable = false;
-        }
-    }
-
-    private void EnableAllSections()
-    {
-        foreach (var section in _colorSections)
-        {
-            section.gameObject.GetComponent<Button>().interactable = true;
         }
     }
 }
