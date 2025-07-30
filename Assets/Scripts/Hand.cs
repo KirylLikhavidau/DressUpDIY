@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
+
 [RequireComponent(typeof(Collider2D))]
+[System.Serializable]
 public class Hand : MonoBehaviour
 {
     [SerializeField] private InputSource _inputSource;

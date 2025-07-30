@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class ItemActivitySwitcher : MonoBehaviour
 {
     [SerializeField] private Hand _hand;

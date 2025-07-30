@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class Brush : InteractableObject
 {
     [SerializeField] private List<ColorSection> _colorSections;

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[System.Serializable]
 public class Pomade : InteractableObject 
 {
     [SerializeField] private Sprite _pomadeColor;

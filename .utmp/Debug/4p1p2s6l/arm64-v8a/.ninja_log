@@ -1,0 +1,12 @@
+# ninja log v5
+34	628	7756000244149359	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e861d07a4559f880
+5	3246	7756000269798816	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	fb1390682afde703
+29	3292	7756000270297491	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	f2b997264992c832
+13	3293	7756000270506949	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ef7a9be414dfd71c
+17	3391	7756000271232354	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	735cdd1f5aef01d6
+25	3409	7756000271526692	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	7357a5a1cbb780ff
+1	3445	7756000272424302	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	4fae1d24e7a95e37
+827	3526	7756000269888615	C:/GitHub/DressUpDIY/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/4p1p2s6l/obj/arm64-v8a/libswappywrapper.so	67c73641e9414b5a
+21	3621	7756000273342174	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	40241fa1fe672d6
+10	3693	7756000274726044	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e37615553cbea8d6
+3693	3876	7756000276556858	C:/GitHub/DressUpDIY/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/4p1p2s6l/obj/arm64-v8a/libgame.so	1ca503ecd46e0330

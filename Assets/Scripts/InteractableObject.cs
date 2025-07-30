@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Serializable]
 public abstract class InteractableObject : MonoBehaviour 
 {
     [SerializeField] protected Hand Hand;

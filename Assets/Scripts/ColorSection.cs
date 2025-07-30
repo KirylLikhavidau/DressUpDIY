@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class ColorSection : MonoBehaviour
 {
     [SerializeField] private Sprite _sprite;
