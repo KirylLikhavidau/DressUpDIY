@@ -50,20 +50,17 @@ public class InputSource : MonoBehaviour, IDragHandler, IEndDragHandler
 
     private void OnTouchPerformed(InputAction.CallbackContext context)
     {
-        if (!_isApplyingObject)
+        if (!_isApplyingObject && !_isHoldingObject)
         {
             Vector3 touchPosition = Camera.main.ScreenToWorldPoint(_playerInput.Gameplay.TouchPosition.ReadValue<Vector2>());
 
-            if (!_isHoldingObject)
+            RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.up, 0.1f);
+            if (!!hit)
             {
-                RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.up, 0.1f);
-                if (!!hit)
+                if (hit.collider.gameObject.TryGetComponent(out InteractableObject obj))
                 {
-                    if (hit.collider.gameObject.TryGetComponent(out InteractableObject obj))
-                    {
-                        if(!(obj is Brush))
-                            ObjectPressed?.Invoke(obj);
-                    }
+                    if(!(obj is Brush))
+                        ObjectPressed?.Invoke(obj);
                 }
             }
         }

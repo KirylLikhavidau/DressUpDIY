@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\GitHub\\DressUpDIY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|c:\\github\\dressupdiy\\assets\\scripts\\pomade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\inputsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\pomade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pomade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\inputsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\handanimatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handanimatorclips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|C:\\GitHub\\DressUpDIY\\assets\\scripts\\face.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{095A9A88-63C8-0CA7-5274-0AA5BDE648E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brush.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\DressUpDIY\\Library\\PackageCache\\com.unity.burst\\Editor\\BurstAotCompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.burst\\Editor\\BurstAotCompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,20 +59,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Hand.cs",
               "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\Hand.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Hand.cs",
               "ToolTip": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\Hand.cs",
               "RelativeToolTip": "Assets\\Scripts\\Hand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T15:31:40.424Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -104,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ItemActivitySwitcher.cs",
               "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\ItemActivitySwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemActivitySwitcher.cs",
@@ -116,33 +113,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BurstAotCompiler.cs",
-              "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Library\\PackageCache\\com.unity.burst\\Editor\\BurstAotCompiler.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.burst\\Editor\\BurstAotCompiler.cs",
-              "ToolTip": "C:\\GitHub\\DressUpDIY\\Library\\PackageCache\\com.unity.burst\\Editor\\BurstAotCompiler.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.burst\\Editor\\BurstAotCompiler.cs",
-              "ViewState": "AgIAAJMEAAAAAAAAAAAAAKMEAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T11:58:26.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Pomade.cs",
               "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\Pomade.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pomade.cs",
               "ToolTip": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\Pomade.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pomade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T16:57:49.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T16:57:49.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HandAnimatorClips.cs",
               "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandAnimatorClips.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandAnimatorClips.cs",
@@ -154,15 +137,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "InputSource.cs",
               "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\InputSource.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputSource.cs",
               "ToolTip": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\InputSource.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T10:06:09.132Z"
+              "WhenOpened": "2025-07-27T10:06:09.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -202,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "InteractableObject.cs",
               "DocumentMoniker": "C:\\GitHub\\DressUpDIY\\Assets\\Scripts\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
@@ -226,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "HandState.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandState.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\HandState.cs",
@@ -238,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "IdleState.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\IdleState.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\IdleState.cs",
@@ -250,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "MovementState.cs",
               "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\MovementState.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\arsen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\DressUpDIY\\Assets\\Scripts\\MovementState.cs",
